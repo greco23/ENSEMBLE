@@ -380,3 +380,7 @@ input[type="checkbox"] {
     font-size: var(--text-xxs);
     text-align: center;
 }
+
+.project-modal-image{
+    width: 50px;
+}

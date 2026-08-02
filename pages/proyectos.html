@@ -31,7 +31,7 @@
                 <h1 class="project__title">Mis Proyectos</h1>
                 <div class="projects-toolbar">         
                     <div class="projects-toolbar__filters">  
-                        <select class="projects-toolbar__filter" name="discipline" id="discipline-filter">
+                        <select class="projects-toolbar__filter" name="discipline " id="discipline-filter">
                             <option value="">Todas las disciplinas</option>
                             <option value="hip-hop">Hip Hop</option>
                             <option value="jazz">Jazz</option>
@@ -48,7 +48,7 @@
                             Hecho por mí
                         </label>
                     </div>
-                    <button class="projects-toolbar__new">+ Nuevo Proyecto</button>
+                    <button class="projects-toolbar__new" id="open-project-modal">+ Nuevo Proyecto</button>
                 </div>
                 <div class="projects-grid">
                     <a href="#" class="project-card">
@@ -123,6 +123,25 @@
                 <p class="footer__text">Diseñado para bailarines, por bailarines.</p>
             </div>
         </footer>
+    
+            <!-- MODAL CREAR PROYECTO -->
+
+        <div class="modal-overlay" id="modal-project">
+            <div class="modal project-modal">
+                <img src="../assets/hombre-bailando.png" class="project-modal-image" alt="Logo de Dancer.ly">
+                <h2>Nuevo Proyecto</h2>
+                <button>X</button>
+                <form >
+                    <label for="project-name">Nombre</label>
+                    <input type="text" name="project-name" id="project-name">
+                    <label for="project-desc">Descripcion</label>
+                    <textarea name="project-desc" id="project-desc"></textarea>
+                    <label for="project-img">Inserta una Imagen</label><p>(opcional)</p>
+                    <input name="project-img" type="file" accept="image/*">
+                </form>
+
+            </div>
+        </div>
         <script src="../js/app.js"></script>
     </body>
 </html>
