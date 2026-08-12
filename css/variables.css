@@ -13,6 +13,8 @@
     --font-primary: "Montserrat", sans-serif;
     --font-nav: "Inter", sans-serif;
     --font-logo: "Roboto Flex", sans-serif;
+    --font-ensemble: "Neue Haas Display", sans-serif;
+
 
     --weight-bold: ;
     --weight-normal: 500;
@@ -31,3 +33,29 @@
     --text-l: 1.5rem;
     --text-xl: 3rem;
 }
+
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("../assets/fonts/NeueHaasDisplayBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("../assets/fonts/NeueHaasDisplayBoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("../assets/fonts/NeueHaasDisplayMediu.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("../assets/fonts/NeueHaasDisplayMediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+

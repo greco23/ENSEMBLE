@@ -1,6 +1,6 @@
 .navbar{
     padding: 24px;
-    font-family: var(--font-nav);
+    font-family: var(--font-ensemble);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .nav__title{
-    font-family: var(--font-logo);
+    font-family: var(--font-ensemble);
     font-size: var(--text-xl);
     font-weight: 500;
 }
@@ -28,6 +28,8 @@
 }
 
 .nav__link{
+    font-weight: 500;
+    font-size: var(--text-s);
     display: inline-block;
     transition: transform 0.3s ease;
 }

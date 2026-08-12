@@ -1,5 +1,7 @@
 body{
-    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-ensemble);
 }
 
 .main--hero{
@@ -37,6 +39,7 @@ body{
 
 .hero__links{
     font-size: var(--text-s);
+    font-weight: 700;
     padding: 20px;
     display: flex;
     gap: 20px;
