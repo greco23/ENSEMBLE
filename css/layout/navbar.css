@@ -1,0 +1,40 @@
+.navbar{
+    padding: 24px;
+    font-family: var(--font-nav);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+    font-size: var(--text-l);
+    font-weight: 500;
+    img{
+        width: 50px;
+    }
+}
+
+.nav__title{
+    font-family: var(--font-logo);
+    font-size: var(--text-xl);
+    font-weight: 500;
+}
+
+.nav__links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.nav__link:hover {
+    transform: scale(1.1);
+}
+
+
+

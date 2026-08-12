@@ -1,0 +1,49 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--hero{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 44px 10px 44px;
+}
+
+
+.footer__content{
+    padding: 20px 44px 10px 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__products{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__resources{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__info{
+    font-size: var(--text-xs);
+    padding: 44px 30px;
+}
+
+.footer__rrss{
+    display: flex;
+    gap: 20px;
+    a{
+        img{
+            width: 35px;
+        }
+    }
+}

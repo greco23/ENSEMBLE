@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dancer.ly — Gestioná tus equipos, coreografías y ensayos en un solo lugar.">
+    <meta name="description" content="ENSEMBLE — Gestioná tus equipos, coreografías y ensayos en un solo lugar.">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Montserrat:wght@500&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">  
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/style.css">  
-    <title>Dancer.ly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout/navbar.css">
+    <link rel="stylesheet" href="css/layout/footer.css">
+    <link rel="stylesheet" href="css/components/modal.css">
+    <link rel="stylesheet" href="css/pages/index.css">
+
+    <title>ENSEMBLE</title>
 </head>
 <body>
+                                        <!---- HEADER ------>
     <header class="header">
             <nav class="navbar" aria-label="Navegación principal">
-                <a href="index.html" class="nav__logo" aria-label="Dancer.ly - Inicio">
+                <a href="index.html" class="nav__logo" aria-label="ENSEMBLE - Inicio">
                     <img src="assets/hombre-bailando.png" alt="figura de hombre bailando">
-                    <span class="nav__title">Dancer.ly</span>
+                    <span class="nav__title">ENSEMBLE</span>
                 </a>
                 <ul class="nav__links">
                     <li><a id="register" href="#" class="nav__link nav__link--primary">Registrarse</a></li>
@@ -26,6 +33,7 @@
                 </ul>
             </nav>
         </header>
+                                      <!---- LANDING ------>
     <main class="main--hero">
         <section class="hero">
             <div class="hero__texts">
@@ -38,12 +46,14 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__info">
-            <h3 class="footer__title">© 2026 Choreo Lab. Creá. Organizá. Bailá.</h3>
+                                        <!---- FOOTER ------>
+    <footer class="footer ">
+        <div class="footer--hero">
+            <h3 class="footer__title">© 2026 ENSEMBLE. Creá. Organizá. Bailá.</h3>
             <p class="footer__text">Diseñado para bailarines, por bailarines.</p>
         </div>
     </footer>
+                                        <!---- MODALES ------>
     <div class="modal-overlay" id="modal-login">
         <div class="modal">
             <button type="button" id="modal-close-login" class="modal__close" aria-label="Cerrar modal">✕</button>
